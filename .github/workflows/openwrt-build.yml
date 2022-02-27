@@ -30,8 +30,8 @@ jobs: # 配置虚拟安装环境
     - name: Generate config file
       run: |
         cd openwrt
-        touch .config
-        cat >> .config <<EOF
+        touch ./.config
+        cat >> ./.config <<EOF
         # Automatically generated file; DO NOT EDIT.
         # OpenWrt Configuration
         #
